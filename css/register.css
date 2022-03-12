@@ -1,0 +1,114 @@
+.register-section {
+  background: linear-gradient(
+    to bottom,
+    var(--main-bg) 0%,
+    var(--main-bg) 50%,
+    var(--footer-bg) 50%,
+    var(--footer-bg) 100%
+  );
+  margin-top: 15rem;
+}
+
+.register-div {
+  background-color: var(--intro-email-bg);
+  margin: 0 1.5rem;
+  text-align: center;
+  padding: 3rem 1rem;
+  border-radius: 8px;
+}
+
+.register-text {
+  font-size: 1rem;
+  opacity: 0.8;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  font-size: 1rem;
+}
+
+.email {
+  background-image: none;
+  background-color: var(--white);
+  color: var(--footer-bg);
+  padding: 1rem 2rem;
+  margin: 1.2rem 0;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.error {
+  margin-top: 1rem;
+  color: var(--error-light-red);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .register-div {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .register-text {
+    padding: 0 3rem;
+  }
+
+  .btn {
+    margin-left: 1rem;
+  }
+
+  .email {
+    width: 60%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .register-div {
+    width: 50%;
+    margin: 0 auto;
+    padding: 3rem 3rem;
+  }
+
+  .register-title {
+    font-size: 1.8rem;
+  }
+
+  .register-text {
+    font-size: 1rem;
+    padding: 0 3rem;
+  }
+
+  form {
+    width: 100%;
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  .btn {
+    width: 30%;
+    margin-left: 1rem;
+  }
+
+  .email {
+    width: 80%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .email:hover {
+    background-color: var(--white);
+  }
+
+  .error {
+    margin-top: 1rem;
+    margin-right: 30rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    opacity: 0.9;
+  }
+}
