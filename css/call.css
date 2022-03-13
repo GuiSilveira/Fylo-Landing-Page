@@ -58,6 +58,10 @@
   .call-subtitle {
     padding: 0 10rem;
   }
+
+  .call-btn {
+    max-width: 222px;
+  }
 }
 
 @media (min-width: 1440px) {
